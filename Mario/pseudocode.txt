@@ -1,0 +1,27 @@
+get input for pyramid size 1 to 8 rows
+start pyramid with size - row of spaces
+print brick * row number
+each brick is "# "
+".......#........
+"......#.#.......
+".....#.#.#......
+"....#.#.#.#.....
+"...#.#.#.#.#....
+"..#.#.#.#.#.#...
+".#.#.#.#.#.#.#..
+"#.#.#.#.#.#.#.#.
+with spaces after each brick
+"       #        
+"      # #       
+"     # # #      
+"    # # # #     
+"   # # # # #    
+"  # # # # # #   
+" # # # # # # #  
+"# # # # # # # # 
+for (int h ;row < rows; row++)
+spaces = rows - row
+for (int s; spaces < rows-row; s++)
+    printf space
+    print row number of bricks
+    
